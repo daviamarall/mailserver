@@ -278,11 +278,17 @@ print("Emails enviados com sucesso.")
 ```
 
 ---
+## Disparo de Emails
 
+Prepare um lista_emails.csv com o seguinte formato:
 
+```bash
+email,nome
+usuario1@dominio.com,Fulano
+usuario2@dominio.com,Ciclano
+```
 
-
-
-
-
-
+### Execute o script 
+```bash
+python3 scripts/disparar_emails.py
+```
