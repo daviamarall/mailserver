@@ -1,0 +1,16 @@
+myhostname = {{ hostname_email }}
+mydomain = {{ dominio_email }}
+myorigin = $mydomain
+inet_interfaces = all
+mydestination = $myhostname, localhost.$mydomain, localhost, $mydomain
+relayhost =
+mynetworks = 127.0.0.0/8
+home_mailbox = Maildir/
+smtpd_banner = $myhostname ESMTP
+smtpd_tls_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem
+smtpd_tls_key_file=/etc/ssl/private/ssl-cert-snakeoil.key
+smtpd_use_tls=yes
+smtpd_sasl_auth_enable = yes
+smtpd_sasl_type = dovecot
+smtpd_sasl_path = private/auth
+smtpd_sasl_security_options = noanonymous
