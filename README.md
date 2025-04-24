@@ -38,8 +38,6 @@ python3 scripts/disparar_emails.py
 ---
 
 ## ✅ **Postfix + Domínio + Autenticação**
-Você pode montar um servidor de email local usando o **Postfix** como MTA (Mail Transfer Agent) e configurá-lo para enviar e-mails para fora.
-
 ### 🔧 Pré-requisitos:
 1. **Servidor Linux (Ubuntu/Debian de preferência)**
 2. **Um domínio próprio** (ex: `seudominio.com`)
@@ -145,9 +143,6 @@ with open("lista.csv") as file:
 - **Considere usar Amazon SES, Mailgun, Sendgrid** se for para produção e precisar de escala.
 
 ---
-
-Quer que eu te monte um script + playbook Ansible pra subir isso tudo? Ou prefere usar algo como Amazon SES com Python pra focar só no código de disparo?
-
 **script + playbook Ansible** 
 
 1. Instala e configura o **Postfix**.
