@@ -136,13 +136,6 @@ with open("lista.csv") as file:
 ```
 
 ---
-
-## 🔒 Cuidado com:
-- **Blacklist:** IPs dinâmicos e servidores sem reputação são bloqueados por muitos provedores.
-- **Limite de envios:** Evite muitos disparos em curto tempo ou sem opt-in → risco de SPAM.
-- **Considere usar Amazon SES, Mailgun, Sendgrid** se for para produção e precisar de escala.
-
----
 **script + playbook Ansible** 
 
 1. Instala e configura o **Postfix**.
