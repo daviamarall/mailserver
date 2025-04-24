@@ -1,4 +1,4 @@
-# Mailserver com Ansible
+# ServerMail com Ansible
 
 Este projeto configura um servidor de email local com Postfix usando Ansible. Além disso, inclui um script Python para realizar disparos de email em massa usando uma lista CSV de destinatários.
 
